@@ -56,5 +56,5 @@ if __name__ == '__main__':
     suits = unittest.TestSuite()
     suits.addTest(TestLoginCase("test_right_login"))
     suits.addTest(TestLoginCase("test_wrong_login"))
-    runner = unittest.TestRunner()
+    runner = unittest.TextTestRunner()
     runner.run(suits)
