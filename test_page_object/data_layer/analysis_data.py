@@ -7,7 +7,8 @@ import os
 
 import yaml
 
-current_path = os.path.abspath(".")
+# current_path = os.path.abspath(".")
+current_path = os.path.dirname(os.path.abspath(__file__))
 multiple_yaml_path = os.path.join(current_path, "config.yaml")
 single_yaml_path = os.path.join(current_path, "single_config.yaml")
 

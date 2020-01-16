@@ -26,7 +26,7 @@ class LoginPage(BasePage):
 
     def password_operate(self, password):
         """输入密码"""
-        self.find_element(*self.email_loc).send_keys(password)
+        self.find_element(*self.password_loc).send_keys(password)
 
     def open_login_page(self):
         """打开登录页"""
@@ -34,5 +34,5 @@ class LoginPage(BasePage):
 
     def login_btn_operate(self):
         """点击登录"""
-        self.find_element(*self.login_btn_loc).cilck()
+        self.find_element(*self.login_btn_loc).click()
 

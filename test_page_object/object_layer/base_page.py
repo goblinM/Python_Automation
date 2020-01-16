@@ -35,3 +35,6 @@ class BasePage(object):
         :return:
         """
         return self.driver.find_elements(*loc)
+
+    def max_size_screen(self):
+        self.driver.maximize_window()
