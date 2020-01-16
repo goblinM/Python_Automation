@@ -1,0 +1,9 @@
+# 单个文档
+right_login:
+  open_url: https://www.polyv.net/
+  email: mominxin@polyv.net
+  password: mmx123456
+wrong_login:
+  open_url: https://www.polyv.net/
+  email: mominxin@polyv.net
+  password: mmx12345678
