@@ -5,7 +5,7 @@ Describe:登录类层
 """
 from selenium.webdriver.common.by import By
 
-from object_layer.base_page import BasePage
+from test_page_object.object_layer.base_page import BasePage
 
 
 class LoginPage(BasePage):

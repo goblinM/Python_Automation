@@ -3,7 +3,7 @@ Author:goblinM
 Date:2020-01-15
 Describe:用户登录的逻辑处理页面
 """
-from object_layer.login_page import LoginPage
+from test_page_object.object_layer.login_page import LoginPage
 
 
 def user_login(driver, open_url, email, password):

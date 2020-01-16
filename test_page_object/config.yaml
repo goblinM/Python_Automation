@@ -1,0 +1,20 @@
+# yaml键值对嵌套：即python中字典嵌套字典
+# 分段yaml文件中多个文档
+---
+login_page:
+    right_login:
+      open_url: https://www.polyv.net/
+      email: mominxin@polyv.net
+      password: mmx123456
+    wrong_login:
+      open_url: https://www.polyv.net/
+      email: mominxin@polyv.net
+      password: mmx12345678
+---
+other_page:
+    test_page:
+      name: test
+
+    test_page2:
+      name: test2
+
