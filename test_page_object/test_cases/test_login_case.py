@@ -47,7 +47,6 @@ class TestLoginCase(unittest.TestCase):
         open_url = data.get("open_url")
         return email, password, open_url
 
-    # @ddt.file_data("test_right_login.yaml")
     def test_right_login(self):
         """正确信息登录"""
         user_email, user_password, open_url = self.set_login_information("right_login")

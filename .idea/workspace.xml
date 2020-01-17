@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="564dd259-1c6e-45ef-9310-b97890ba3108" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test_page_object/data_layer/analysis_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_page_object/data_layer/analysis_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_page_object/data_layer/test_data_dict.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_page_object/data_layer/test_data_dict.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_page_object/data_layer/test_data_dict_dict.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_page_object/data_layer/test_data_dict_dict.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_page_object/data_layer/test_data_list.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_page_object/data_layer/test_data_list.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_page_object/logic_layer/ddt_logic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_page_object/test_cases/test_login_ddt_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_page_object/test_cases/test_login_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_page_object/test_cases/test_login_case.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,28 +22,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_page_object/data_layer/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_page_object/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="45" column="28" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_page_object/object_layer/base_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="175">
+              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -43,10 +33,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_page_object/test_cases/test_login_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="440">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="e#64#94#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_page_object/test_cases/test_login_ddt_case.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+              <folding>
+                <element signature="e#97#106#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_page_object/data_layer/analysis_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-50">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            <state relative-caret-position="250">
+              <caret line="10" column="47" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="47" />
               <folding>
                 <element signature="e#57#66#0" expanded="true" />
               </folding>
@@ -106,8 +108,16 @@
         <option value="$PROJECT_DIR$/test_page_object/object_layer/base_page.py" />
         <option value="$PROJECT_DIR$/test_page_object/test_login_case.py" />
         <option value="$PROJECT_DIR$/test_page_object/object_layer/login_page.py" />
-        <option value="$PROJECT_DIR$/test_page_object/test_cases/test_login_case.py" />
         <option value="$PROJECT_DIR$/test_page_object/data_layer/analysis_data.py" />
+        <option value="$PROJECT_DIR$/test_page_object/logic_layer/ddt_logic.py" />
+        <option value="$PROJECT_DIR$/test_page_object/data_layer/test_data_list.yaml" />
+        <option value="$PROJECT_DIR$/test_page_object/data_layer/test_data_dict_dict.yaml" />
+        <option value="$PROJECT_DIR$/test_page_object/data_layer/test_data_dict.yaml" />
+        <option value="$PROJECT_DIR$/test_page_object/data_layer/test_data_list.json" />
+        <option value="$PROJECT_DIR$/test_page_object/data_layer/test_data_dict.json" />
+        <option value="$PROJECT_DIR$/test_page_object/data_layer/test_data_dict_dict.json" />
+        <option value="$PROJECT_DIR$/test_page_object/test_cases/test_login_case.py" />
+        <option value="$PROJECT_DIR$/test_page_object/test_cases/test_login_ddt_case.py" />
       </list>
     </option>
   </component>
@@ -155,6 +165,24 @@
               <item name="test_page_object" type="462c0819:PsiDirectoryNode" />
               <item name="data_layer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Python_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="test_page_object" type="462c0819:PsiDirectoryNode" />
+              <item name="logic_layer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="test_page_object" type="462c0819:PsiDirectoryNode" />
+              <item name="object_layer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="test_page_object" type="462c0819:PsiDirectoryNode" />
+              <item name="test_cases" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -165,7 +193,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_page_object/test_cases/test_login_case.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_page_object/test_cases/test_login_ddt_case.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -190,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_login_case.py">
+  <component name="RunManager" selected="Python tests.Unittests in test_login_ddt_case.py">
     <configuration name="Unittests in test_login_case.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
       <module name="Python_Automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,6 +232,22 @@
       <option name="_new_pattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test_page_object/test_cases/test_login_case.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_login_ddt_case.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
+      <module name="Python_Automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="D:\working\project_env3\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_page_object/test_cases/test_login_ddt_case.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -224,6 +268,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python tests.Unittests in test_login_ddt_case.py" />
       <item itemvalue="Python tests.Unittests in test_login_case.py" />
       <item itemvalue="Python tests.pytest in test_login_case.py" />
     </list>
@@ -243,29 +288,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579147494010</updated>
-      <workItem from="1579147501438" duration="14462000" />
+      <workItem from="1579147501438" duration="17401000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_login_case_py - 2020.01.16 at 23h 53m 31s.xml">
-      <configuration name="pytest in test_login_case.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_login_case_py - 2020.01.17 at 00h 00m 38s.xml">
-      <configuration name="Unittests in test_login_case.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_login_case_py - 2020.01.17 at 00h 03m 24s.xml">
-      <configuration name="Unittests in test_login_case.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_login_case_py - 2020.01.17 at 00h 07m 51s.xml">
-      <configuration name="Unittests in test_login_case.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_login_case_py - 2020.01.17 at 00h 09m 08s.xml">
-      <configuration name="Unittests in test_login_case.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_login_case_py - 2020.01.17 at 00h 10m 19s.xml">
-      <configuration name="Unittests in test_login_case.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_login_case_py - 2020.01.17 at 00h 15m 14s.xml">
       <configuration name="Unittests in test_login_case.py" configurationId="tests" />
     </history-entry>
@@ -278,16 +305,33 @@
     <history-entry file="Unittests_in_test_login_case_py - 2020.01.17 at 13h 05m 16s.xml">
       <configuration name="Unittests in test_login_case.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_login_ddt_case_py - 2020.01.17 at 14h 29m 58s.xml">
+      <configuration name="Unittests in test_login_ddt_case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_login_ddt_case_py - 2020.01.17 at 14h 31m 41s.xml">
+      <configuration name="Unittests in test_login_ddt_case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_login_ddt_case_py - 2020.01.17 at 14h 34m 24s.xml">
+      <configuration name="Unittests in test_login_ddt_case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_login_ddt_case_py - 2020.01.17 at 14h 35m 52s.xml">
+      <configuration name="Unittests in test_login_ddt_case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_login_ddt_case_py - 2020.01.17 at 14h 36m 31s.xml">
+      <configuration name="Unittests in test_login_ddt_case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_login_ddt_case_py - 2020.01.17 at 14h 37m 28s.xml">
+      <configuration name="Unittests in test_login_ddt_case.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14462000" />
+    <option name="totallyTimeSpent" value="17401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18389262" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18389262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -298,7 +342,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47293448" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -316,6 +360,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_Automation$Unittests_in_test_login_case_py.coverage" NAME="Unittests in test_login_case.py Coverage Results" MODIFIED="1579237477436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Python_Automation$pytest_in_test_login_case_py.coverage" NAME="pytest in test_login_case.py Coverage Results" MODIFIED="1579189985188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_page_object" />
+    <SUITE FILE_PATH="coverage/Python_Automation$Unittests_in_test_login_ddt_case_py.coverage" NAME="Unittests in test_login_ddt_case.py Coverage Results" MODIFIED="1579243048426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -346,13 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../project_env3/Lib/site-packages/ddt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1285">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_page_object/single_config.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -367,13 +405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_page_object/logic_layer/user_login_logic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_page_object/object_layer/login_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -384,13 +415,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_page_object/object_layer/base_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/python_ins/Anaconda3/Lib/unittest/loader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -398,22 +422,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_page_object/test_cases/test_login_case.py">
+    <entry file="file://$PROJECT_DIR$/test_page_object/object_layer/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_page_object/data_layer/test_data_list.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_page_object/data_layer/test_data_dict_dict.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_page_object/data_layer/test_data_dict.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_page_object/data_layer/test_data_list.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_page_object/data_layer/test_data_dict.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_page_object/data_layer/test_data_dict_dict.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_page_object/logic_layer/user_login_logic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_page_object/logic_layer/ddt_logic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project_env3/Lib/site-packages/ddt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_page_object/data_layer/analysis_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="47" />
+          <folding>
+            <element signature="e#57#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_page_object/test_cases/test_login_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="e#64#94#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_page_object/data_layer/analysis_data.py">
+    <entry file="file://$PROJECT_DIR$/test_page_object/test_cases/test_login_ddt_case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        <state relative-caret-position="105">
+          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
           <folding>
-            <element signature="e#57#66#0" expanded="true" />
+            <element signature="e#97#106#0" expanded="true" />
           </folding>
         </state>
       </provider>
