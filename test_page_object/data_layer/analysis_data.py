@@ -6,7 +6,6 @@ Describe:yaml数据解析
 import os
 
 import yaml
-
 # current_path = os.path.abspath(".")
 current_path = os.path.dirname(os.path.abspath(__file__))
 multiple_yaml_path = os.path.join(current_path, "config.yaml")

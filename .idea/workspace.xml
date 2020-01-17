@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="564dd259-1c6e-45ef-9310-b97890ba3108" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_page_object/object_layer/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_page_object/object_layer/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_page_object/object_layer/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_page_object/object_layer/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_page_object/test_login_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_page_object/test_cases/test_login_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_page_object/data_layer/analysis_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_page_object/data_layer/analysis_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_page_object/test_cases/test_login_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_page_object/test_cases/test_login_case.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/test_page_object/base.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="45" column="28" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="28" />
+              <caret line="45" column="28" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -37,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/test_page_object/object_layer/base_page.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="625">
-              <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -45,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_page_object/test_cases/test_login_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+            <state relative-caret-position="75">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding>
                 <element signature="e#64#94#0" expanded="true" />
               </folding>
@@ -58,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/test_page_object/logic_layer/user_login_logic.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -67,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/test_page_object/object_layer/login_page.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="215">
-              <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
               <folding>
                 <element signature="e#53#96#0" expanded="true" />
               </folding>
@@ -78,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_page_object/data_layer/analysis_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state relative-caret-position="-50">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
               <folding>
                 <element signature="e#57#66#0" expanded="true" />
               </folding>
@@ -105,10 +103,11 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/test_page_object/logic_layer/user_login_logic.py" />
         <option value="$PROJECT_DIR$/test_page_object/config.yaml" />
-        <option value="$PROJECT_DIR$/test_page_object/data_layer/analysis_data.py" />
         <option value="$PROJECT_DIR$/test_page_object/object_layer/base_page.py" />
         <option value="$PROJECT_DIR$/test_page_object/test_login_case.py" />
         <option value="$PROJECT_DIR$/test_page_object/object_layer/login_page.py" />
+        <option value="$PROJECT_DIR$/test_page_object/test_cases/test_login_case.py" />
+        <option value="$PROJECT_DIR$/test_page_object/data_layer/analysis_data.py" />
       </list>
     </option>
   </component>
@@ -155,24 +154,6 @@
               <item name="Python_Automation" type="462c0819:PsiDirectoryNode" />
               <item name="test_page_object" type="462c0819:PsiDirectoryNode" />
               <item name="data_layer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="test_page_object" type="462c0819:PsiDirectoryNode" />
-              <item name="logic_layer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="test_page_object" type="462c0819:PsiDirectoryNode" />
-              <item name="object_layer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="test_page_object" type="462c0819:PsiDirectoryNode" />
-              <item name="test_cases" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -262,7 +243,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579147494010</updated>
-      <workItem from="1579147501438" duration="11069000" />
+      <workItem from="1579147501438" duration="14462000" />
     </task>
     <servers />
   </component>
@@ -288,9 +269,18 @@
     <history-entry file="Unittests_in_test_login_case_py - 2020.01.17 at 00h 15m 14s.xml">
       <configuration name="Unittests in test_login_case.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_login_case_py - 2020.01.17 at 00h 17m 20s.xml">
+      <configuration name="Unittests in test_login_case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_login_case_py - 2020.01.17 at 00h 18m 31s.xml">
+      <configuration name="Unittests in test_login_case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_login_case_py - 2020.01.17 at 13h 05m 16s.xml">
+      <configuration name="Unittests in test_login_case.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11069000" />
+    <option name="totallyTimeSpent" value="14462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -305,7 +295,7 @@
       <window_info anchor="bottom" id="Statistic" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Terminal" weight="0.32905984" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
@@ -324,7 +314,7 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_Automation$Unittests_in_test_login_case_py.coverage" NAME="Unittests in test_login_case.py Coverage Results" MODIFIED="1579191481874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Python_Automation$Unittests_in_test_login_case_py.coverage" NAME="Unittests in test_login_case.py Coverage Results" MODIFIED="1579237477436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Python_Automation$pytest_in_test_login_case_py.coverage" NAME="pytest in test_login_case.py Coverage Results" MODIFIED="1579189985188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_page_object" />
   </component>
   <component name="editorHistoryManager">
@@ -373,21 +363,21 @@
     <entry file="file://$PROJECT_DIR$/test_page_object/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="45" column="28" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="28" />
+          <caret line="45" column="28" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_page_object/logic_layer/user_login_logic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_page_object/object_layer/login_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
-          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
           <folding>
             <element signature="e#53#96#0" expanded="true" />
           </folding>
@@ -397,7 +387,7 @@
     <entry file="file://$PROJECT_DIR$/test_page_object/object_layer/base_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
-          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -410,8 +400,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_page_object/test_cases/test_login_case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+        <state relative-caret-position="75">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
             <element signature="e#64#94#0" expanded="true" />
           </folding>
@@ -420,8 +410,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_page_object/data_layer/analysis_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        <state relative-caret-position="-50">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding>
             <element signature="e#57#66#0" expanded="true" />
           </folding>

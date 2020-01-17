@@ -25,13 +25,19 @@ class TestLoginCase(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls) -> None:
-        cls.driver = webdriver.Chrome()
-        cls.driver.maximize_window()
         cls.data = YamlMethods().single_yaml_load()
+
+    def setUp(self) -> None:
+        self.driver = webdriver.Chrome()
+        self.driver.maximize_window()
+
+    def tearDown(self) -> None:
+        self.driver.quit()
 
     @classmethod
     def tearDownClass(cls) -> None:
-        cls.driver.quit()
+        # cls.driver.quit()
+        pass
 
     def set_login_information(self, key):
         """设置信息"""
@@ -47,6 +53,7 @@ class TestLoginCase(unittest.TestCase):
         user_email, user_password, open_url = self.set_login_information("right_login")
         user_login(self.driver, open_url, user_email, user_password)
 
+    # @unittest.skip
     def test_wrong_login(self):
         """错误信息登录"""
         user_email, user_password, open_url = self.set_login_information("wrong_login")
@@ -58,6 +65,6 @@ if __name__ == '__main__':
     # 单个用例执行
     suits = unittest.TestSuite()
     suits.addTest(TestLoginCase("test_right_login"))
-    # suits.addTest(TestLoginCase("test_wrong_login"))
+    suits.addTest(TestLoginCase("test_wrong_login"))
     runner = unittest.TextTestRunner()
     runner.run(suits)
