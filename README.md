@@ -20,7 +20,7 @@ PageObject可以通过分层进行设计
 	4.数据层
 
 PageObject的模式大致如下：
-![avatar](test_page_object/page_object.jpg)
+![avatar](https://github.com/goblinM/Python_Automation/blob/master/test_page_object/page_object.jpg)
 ```
 
 
