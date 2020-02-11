@@ -24,11 +24,12 @@ def test_user_login():
     # 搜索登录按钮并点击
     login_page = driver.find_element_by_css_selector(".login-btn")
     login_page.click()
+    # 登录页面
     sleep(3)
     email = driver.find_element_by_css_selector("#email")
-    email.send_keys("mominxin@polyv.net")
+    email.send_keys("xxx")
     password = driver.find_element_by_css_selector("#password")
-    password.send_keys("mmx123456")
+    password.send_keys("xxx")
     login_btn = driver.find_element_by_css_selector(".login-btn")
     login_btn.click()
     # 关闭网页
@@ -48,8 +49,8 @@ def test_user_login_two():
     base_url = "https://www.polyv.net/"
     driver.get(base_url)
     driver.find_element(By.CLASS_NAME, "login-btn").click()
-    driver.find_element(By.ID, "email").send_keys("mominxin@polyv.net")
-    driver.find_element(By.ID, "password").send_keys("mmx123456")
+    driver.find_element(By.ID, "email").send_keys("xxx")
+    driver.find_element(By.ID, "password").send_keys("xxx")
     driver.find_element(By.CLASS_NAME, "login-btn").click()
 
 

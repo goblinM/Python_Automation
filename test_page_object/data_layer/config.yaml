@@ -4,12 +4,12 @@
 login_page:
     right_login:
       open_url: https://www.polyv.net/
-      email: mominxin@polyv.net
-      password: mmx123456
+      email: xxx
+      password: xxx
     wrong_login:
       open_url: https://www.polyv.net/
-      email: mominxin@polyv.net
-      password: mmx12345678
+      email: xxx
+      password: xxx
 ---
 other_page:
     test_page:
